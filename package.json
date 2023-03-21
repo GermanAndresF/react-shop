@@ -4,7 +4,7 @@
   "description": "react shop",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d src",
     "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "mini-css-extract-plugin": "^2.2.0",
     "sass": "^1.38.0",
     "sass-loader": "^12.1.0",
